@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "113094130511",
+    "project_id": "cleancar-179a8",
+    "storage_bucket": "cleancar-179a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113094130511:android:634da48af0b8a75539e33a",
+        "android_client_info": {
+          "package_name": "com.example.cleancar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113094130511-kjbd8k78jot3b4rrcj4qqas0al47s41d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cleancar",
+            "certificate_hash": "ff37228acdbb1901ebf0c08b789090600d0e0864"
+          }
+        },
+        {
+          "client_id": "113094130511-c06trnfgig2ul539khjk770m631pcpg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiUyTef9KlbmZOb1y5oujAdqV8qHpcHzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113094130511-c06trnfgig2ul539khjk770m631pcpg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

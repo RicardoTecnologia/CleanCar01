@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<!--van los iconos de la navegacion-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_servicio"
+            android:title="@string/menu_reserva" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_reserva"
+            android:title="@string/menu_servicio" />
+        <item
+            android:id="@+id/nav_notificacion"
+            android:icon="@drawable/ic_notificacion"
+            android:title="@string/menu_notificacion" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_config"
+            android:title="@string/menu_configuracion" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>

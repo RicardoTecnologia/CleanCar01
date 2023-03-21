@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cleancar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.cleancar.ui.reserva.ReservaFragment"
+        android:label="@string/menu_reserva"
+        tools:layout="@layout/fragment_reserva" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cleancar.ui.servicio.ServicioFragment"
+        android:label="@string/menu_servicio"
+        tools:layout="@layout/fragment_servicio" />
+    <fragment
+        android:id="@+id/nav_notificacion"
+        android:name="com.example.cleancar.ui.notificacion.NotificacionFragment"
+        android:label="@string/menu_notificacion"
+        tools:layout="@layout/fragment_notificacion" />
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.cleancar.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.cleancar.ui.salir.SalirFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+    <!--falta por agregar mas fragment, lo dejamos pendiente 12/03/23-->
+    <!--android:name="com.example.cleancar.ui.slideshow.SlideshowFragment" de acuerdo a lo que llame a los fragment-->
+</navigation>
